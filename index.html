@@ -3,8 +3,11 @@
 	<head>
 		<!-- Stylesheets -->
 		<style type="text/css">
-		.main {margin:0px auto; width: 100%; border: 10px solid black; }
+		.main {margin:0px auto; padding: 0px 0px; width: 100%; border: 1px solid black; }
+		.stage{margin:0px auto; padding:120px 20px 20px 20px; width:57% !important; border:1px solid blue;}
 		.nav {}
+		
+		.container-fluid {border: 10px solid red !important;}
 		 </style>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -16,16 +19,71 @@
 	</head>
 	<body>
 		<div class="main">
-			<div class="nav">
-				<a class="btn btn-primary" href="#" role="button">Home</a>
-				<a class="btn btn-primary" href="#" role="button">About</a>
-				<a class="btn btn-primary" href="#" role="button">Interest</a>
-				<a class="btn btn-primary" href="#" role="button">Code</a>
+			<div class="stage">
+				<div class="nav">
+					<a class="btn btn-primary" href="#" role="button">Home</a>
+					<a class="btn btn-primary" href="#" role="button">Labs</a>
+					<a class="btn btn-primary" href="#" role="button">ABG</a>
+					<a class="btn btn-primary" href="#" role="button">Pharm</a>
 
-			</div>
+				</div>
 		
-			<div class="container-fluid">
-			Return of the Jedi!
+				<div class="container-fluid">
+				Normal Lab values
+					<div class="table">
+						<div class="table-responsive-sm">
+							<table class="table-striped">
+							<thead>
+							<tr>
+								<th scope="col">Na</td>
+								<th scope="col">Cl</td>
+								<th scope="col">BUN</td>
+							</tr>
+							</thead>
+							<tr>
+								<td scope="row">135 - 145</td>
+								<td>98 - 106</td>
+								<td>6 - 20</td>
+							</tr>
+							<thead>
+							<tr>
+								<th scope="col">K</td>
+								<th scope="col">HCO3</td>
+								<th scope="col">Cr</td>
+							</tr>
+							</thead>
+							<tr>
+								<td>3.5 - 5</td>
+								<td>22 - 26</td>
+								<td>0.6 - 1.2</td>
+							</tr>
+							<thead>
+							<tr>
+								<th scope="col">Glu</td>
+								<th scope="col"></td>
+								<th scope="col"></td>
+							</tr>
+							</thead>
+							<tr>
+								<td>80 - 110</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<thead>
+							<tr>
+								<th scope="col">INR</td>
+								<th scope="col">PTT</td>
+								<th scope="col">aPTT</td>
+							</tr>
+							</thead>
+							<tr>
+								<td>3.5 - 5</td>
+								<td>22 - 26</td>
+								<td>0.6 - 1.2</td>
+							</tr>				
+							</table>
+						</div>
+				</div>
 			</div>
 		</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
