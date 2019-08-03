@@ -1,0 +1,84 @@
+.flashcard {
+  border: 5px solid #0fa0aa;
+  border-radius: 20px;
+  text-align: center;
+  height: 200px;
+  margin: 10px;
+  background-color: #09bfb0;
+}
+
+.word {
+  font-size: 20pt;
+  color: #DAE8A4;
+  font-weight: bold;
+  line-height: 150px;
+}
+
+.definition {
+  display: none;
+  padding: 5px 5px 0px 5px;
+  font-size: 11pt;
+  font-weight:normal;
+  font-color: #ffffff;
+  font-family: Arial; 
+}
+
+.definition li {
+  font-size: 8pt !important;
+  
+  }
+
+body {
+  background-color: #64FFF2;
+}
+
+.heading {
+  text-align: center;
+  color: #0AA99C;
+}
+
+.flashcard:hover {
+  background-color: #0fa0aa;
+  cursor: pointer;
+}
+
+.main {
+	margin:0px auto; 
+	padding: 0px 0px; 
+	width: 100%; 
+}
+
+.stage{
+	margin:0px auto; 
+	padding:120px 20px 20px 20px; 
+	width:57% !important; 
+}
+
+
+.nav {
+	width:100%; 
+	padding:0px 0px 30px 0px;
+}
+
+
+a.btn { 
+	width: 25% !important;
+}
+
+.container-fluid {}
+
+@media (max-device-width: 480px) {
+	.stage { width: 100% !important}
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+
+
+
+
+
+ </style>
